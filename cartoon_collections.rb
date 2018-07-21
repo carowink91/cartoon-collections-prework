@@ -10,3 +10,9 @@ def summon_captain_planet (array)
     x.capitalize
   end
 end
+
+def long_planeteer_calls (array)
+  array.any? do |word|
+    word.length > 4
+  end
+end
