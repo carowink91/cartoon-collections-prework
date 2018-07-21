@@ -3,3 +3,10 @@ def roll_call_dwarves (dwarves)
     puts "#{index + 1} #{dwarf}"
   end
 end
+
+def summon_captain_planet (array)
+  array.map! do |x|
+    x.capitalize
+    x << "!"
+  end
+end
